@@ -21,7 +21,7 @@ $estudiantes = $estudianteController->read();
 <body>
     <main>
         <h1>Lista de estudiantes</h1>
-        <a href="views\Estudiantes\form_estudiante.php">Registrar estudiante</a>
+        <a href="views\form_estudiante.php">Registrar estudiante</a>
         <table>
             <thead>
                 <tr>
@@ -38,8 +38,8 @@ $estudiantes = $estudianteController->read();
                     echo '  <td>' . $estudiante->getNombres() . '</td>';
                     echo '  <td>' . $estudiante->getApellidos() . '</td>';
                     echo '  <td>';
-                    echo '      <a href="views\Estudiantes\form_estudiante.php?codigo=' . $estudiante->getCodigo() . '">MODIFICAR</a>';
-                    echo '      <a href="views\Estudiantes\accion_borrar_estudiante.php?codigo=' . $estudiante->getCodigo() . '">BORRAR</a>';
+                    echo '      <a href="views\form_estudiante.php?codigo=' . $estudiante->getCodigo() . '">MODIFICAR</a>';
+                    echo '      <a href="views\accion_borrar_estudiante.php?codigo=' . $estudiante->getCodigo() . '">BORRAR</a>';
                     echo '  </td>';
                     echo '</tr>';
                 }

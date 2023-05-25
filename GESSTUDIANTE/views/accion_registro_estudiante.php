@@ -21,4 +21,4 @@ if ($resultado) {
 }
 ?>
 <br>
-<a href="../../Estudiantes.php">Volver al inicio</a>
+<a href="../Estudiantes.php">Volver al inicio</a>
