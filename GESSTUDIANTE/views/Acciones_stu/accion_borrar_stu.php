@@ -1,8 +1,8 @@
 <?php
-require '../models/estudiante.php';
-require '../controllers/conexionDbController.php';
-require '../controllers/baseController.php';
-require '../controllers/estudiantesController.php';
+require '../../models/estudiante.php';
+require '../../controllers/conexionDbController.php';
+require '../../controllers/baseController.php';
+require '../../controllers/estudiantesController.php';
 
 use estudianteController\EstudianteController;
 
@@ -15,4 +15,4 @@ if ($resultado) {
 }
 ?>
 <br>
-<a href="../Estudiantes.php">Volver al inicio</a>
+<a href="../../index.php">Volver al inicio</a>
