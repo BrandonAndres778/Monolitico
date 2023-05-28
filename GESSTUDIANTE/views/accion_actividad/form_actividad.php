@@ -26,6 +26,7 @@ if (!empty($id)) {
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/formulario.css">
 </head>
 
 <body>
@@ -47,7 +48,6 @@ if (!empty($id)) {
             <br>
             <button type="submit">Guardar</button>
         </form>
-    <a href="../../index.php">VOLVER A LA LISTA DE ESTUDIANTES</a>
     </main>
 </body>
 

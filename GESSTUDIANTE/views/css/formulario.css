@@ -1,0 +1,147 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #F0F7FA;
+  color: #0f3381;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+}
+
+header {
+  background-color: #87CEEB;
+  color: #fff;
+  padding: 3px;
+}
+
+main {
+  padding: 30px;
+}
+
+.enlace {
+  font-family: 'Russo One', sans-serif;
+  display: block;
+  width: 25%;
+  padding: 12px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #87CEEB;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.enlace:hover {
+  background-color: #969696;
+  color: #87CEEB;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #F0F7FA;
+  border-radius: 4px;
+  margin-top: 20px;
+  table-layout: fixed;
+}
+
+table tr {
+  text-align: center;
+}
+
+table th,
+table td {
+  width: auto;
+  padding: 20px;
+  text-align: left;
+}
+
+table th {
+  background-color: #87CEEB;
+  color: #fff;
+  font-size: 24px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody a {
+  font-family: 'Russo One', sans-serif;
+  display: block;
+  width: 90%;
+  padding: 10px;
+  background-color: #87CEEB;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+tbody a:hover {
+  background-color: #555;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #F0F7FA;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #0f3381;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  font-family: 'Russo One', sans-serif;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #231670;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+button:hover {
+  background-color: #3c44bd;
+}
+
+#perdio{
+  color: red;
+}
+
+#paso{
+  color: green;
+}

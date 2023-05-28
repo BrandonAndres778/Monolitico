@@ -16,12 +16,13 @@ $estudiantes = $estudianteController->read();
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="views/css/formulario.css">
 </head>
 
 <body>
     <main>
         <h1>Lista de estudiantes</h1>
-        <a href="views/Acciones_stu/form_estudiante.php">Registrar estudiante</a>
+        <a class = "enlace" href="views/Acciones_stu/form_estudiante.php">Registrar estudiante</a>
         <table>
             <thead>
                 <tr>

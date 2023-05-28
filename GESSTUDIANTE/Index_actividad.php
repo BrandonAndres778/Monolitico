@@ -29,6 +29,7 @@ $estudiante = $estudianteController->readRow($codigo);
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="views/css/formulario.css">
 </head>
 
 <body>
@@ -36,7 +37,7 @@ $estudiante = $estudianteController->readRow($codigo);
         <h1>LISTA DE ACTIVIDADES</h1>
     </header>
     <main>
-        <a  href="<?php echo $urlAction;?>">REGISTRAR ACTIVIDAD</a>
+        <a class = "enlace" href="<?php echo $urlAction;?>">REGISTRAR ACTIVIDAD</a>
         <table>
             <thead>
                 <tr>
@@ -98,7 +99,7 @@ $estudiante = $estudianteController->readRow($codigo);
             <h2 id = "ms"><?php echo($ms)?></h2>
             <h2><?php echo($promedio)?></h2>
         </div>
-        <a href="index.php">VOLVER A LA LISTA DE ESTUDIANTES</a>
+        <a class = "enlace" href="index.php">VOLVER A LA LISTA DE ESTUDIANTES</a>
     </main>
 </body>
 

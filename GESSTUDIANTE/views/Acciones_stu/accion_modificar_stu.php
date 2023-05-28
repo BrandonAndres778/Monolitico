@@ -15,12 +15,25 @@ $estudiante->setApellidos($_POST['apellidos']);
 $estudianteController = new EstudianteController();
 $resultado = $estudianteController->update($estudiante->getCodigo(), $estudiante);
 if ($resultado) {
-    echo '<h1>estudiante modificado</h1>';
+    $msj = '<h1>estudiante modificado</h1>';
 } else {
-    echo '<h1>No se pudo modificar el estudiante</h1>';
+    $msj = '<h1>No se pudo modificar el estudiante</h1>';
 }
+$url = "../../index.php";
 ?>
-<br>
-<a href="../../index.php">Volver al inicio</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/msjAccion.css">
+</head>
+<body>
+    <header>
+        <h1><?php echo($msj) ?></h1>
+    </header>
+    <a href="<?php echo($url)?>">Volver al inicio</a>
+</body>
+</html>
 
 

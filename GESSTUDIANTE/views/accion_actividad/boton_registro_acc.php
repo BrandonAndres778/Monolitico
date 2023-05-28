@@ -17,10 +17,22 @@ $actividadController = new ActividadController();
 $resultado = $actividadController->create($actividad);
 $url = '../../index_actividad.php?codigo='.$codigo;
 if ($resultado) {
-    echo '<h1>se registro la actividad</h1>';
+    $msj = '<h1>se registro la actividad</h1>';
 } else {
-    echo '<h1>No se pudo registrar la actividad</h1>';
+    $msj = '<h1>No se pudo registrar la actividad</h1>';
 }
 ?>
-<br>
-<a href="<?php echo($url)?>">Volver al inicio</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/msjAccion.css">
+</head>
+<body>
+    <header>
+        <h1><?php echo($msj) ?></h1>
+    </header>
+    <a href="<?php echo($url)?>">Volver al inicio</a>
+</body>
+</html>
